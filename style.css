@@ -137,3 +137,38 @@ select {
     transform: scale(1.5);
   }
   */
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 25px 15px 30px 20px;
+  }
+  header {
+    font-size: 1.7rem;
+  }
+  .todo-input {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 25px 15px 30px 20px;
+  }
+  .todo {
+    align-items: center;
+  }
+  header {
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .todo-input {
+    width: 75%;
+  }
+  form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
