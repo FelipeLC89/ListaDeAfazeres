@@ -164,6 +164,7 @@ select {
   }
   .todo-input {
     width: 75%;
+    font-size: 1.7rem;
   }
   form {
     min-height: 20vh;
