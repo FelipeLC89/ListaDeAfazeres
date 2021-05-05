@@ -141,6 +141,7 @@ select {
 @media screen and (max-width: 1024px) {
   body {
     margin: 25px 15px 30px 20px;
+    font-family: "Poppins", sans-serif;
   }
   header {
     font-size: 1.7rem;
@@ -153,6 +154,7 @@ select {
 @media screen and (max-width: 768px) {
   body {
     margin: 25px 15px 30px 20px;
+    font-family: "Poppins", sans-serif;
   }
   .todo {
     align-items: center;
@@ -163,8 +165,9 @@ select {
     align-items: center;
   }
   .todo-input {
-    width: 75%;
+    width: 80%;
     font-size: 1.7rem;
+    padding: 0.6rem;
   }
   form {
     min-height: 20vh;
